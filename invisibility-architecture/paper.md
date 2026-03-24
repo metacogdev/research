@@ -90,7 +90,7 @@ Garicano (2000) models hierarchy as a structure for economising on knowledge. Ro
 
 The escalation itself transforms the information. What reaches the decision-maker is not the case as experienced by the frontline worker but a summary, a classification, a score — information processed into a format compatible with the decision-maker's scope. The contextual richness that would support judgment is filtered out by the same process that routes the case to authority.
 
-### The deadlock
+### The judgment blockage
 
 Maynard-Moody and Musheno (2003) document the human cost of this structure. Their study of frontline public servants — cops, teachers, counsellors — reveals a persistent tension between the state-agent identity (follow the rules, apply the policy) and the citizen-agent identity (respond to the person in front of you, exercise judgment about what this situation requires). Workers are forced to choose. The structure does not allow both.
 
@@ -128,7 +128,7 @@ Christin (2017) reinforces the point by comparing web journalism and criminal ju
 
 The implication is that AI has no single effect on human judgment. It has the effect the institutional architecture permits. Where practitioners had authority, context, and norms that valued interpretation, AI could augment. Where judgment had already been subordinated — where practitioners could interpret but not govern, or were reduced to executing closed prompts within narrow output formats — AI exposed that subordination by performing the compliant version of the role as well as or better than the human.
 
-This diagnosis does not apply uniformly. In some settings, proceduralisation protects fairness — sentencing guidelines can constrain judicial arbitrariness; eligibility rules can prevent caseworker discrimination — and AI can genuinely support rather than displace professional judgment. The paper's claim is not that AI always reveals judgment as absent. It is that in the compliance-heavy settings that dominate consequential bureaucratic and professional workflows, it more often reveals a familiar pattern: expert interpretation persists, but operative power lies elsewhere.
+This diagnosis does not apply uniformly. In some settings, proceduralisation protects fairness — sentencing guidelines can constrain judicial arbitrariness; eligibility rules can prevent caseworker discrimination — and AI can genuinely support rather than displace professional judgment. The paper's claim is not that AI always reveals judgment as absent. It is that in the compliance-heavy settings examined here, it more often reveals a familiar pattern: expert interpretation persists, but operative power lies elsewhere.
 
 ### From street-level to system-level
 
@@ -154,7 +154,7 @@ Elish (2019) introduces the concept of the moral crumple zone: the structural po
 
 Elish's analysis is not about bad actors or poorly designed interfaces. It is about a structural position that human-machine systems routinely create. The human is placed in the system because governance requires human involvement. The system is designed so that the human's involvement is structurally limited. When the system fails, the human bears responsibility for an outcome they could not meaningfully have influenced.
 
-### The MABA-MABA trap
+### The insertion fallacy
 
 Crootof, Kaminski, and Price (2022) identify a related failure: the tendency to insert humans into automated processes to "address algorithmic incapacities" without understanding the resulting sociotechnical system. The logic is: the algorithm cannot do X, so put a human in to do X. But the human is inserted into a workflow designed around the algorithm, under time pressures defined by the algorithm's throughput, with information presented in the algorithm's format, and with authority limited to accepting or rejecting the algorithm's output. The human is not doing X. They are performing the appearance of doing X within constraints that make X impossible.
 
@@ -164,7 +164,7 @@ This is not a design oversight that better interfaces could solve. It is a struc
 
 Wagner (2019) names the condition directly: quasi-automation, in which humans are nominally involved in automated decision processes but function as rubber stamps. The liability remains with the human. The decision-making has migrated to the system. Wagner's contribution is to identify this as a structural condition, not a behavioural one. The human is not lazy or inattentive. They are operating within a system that has been designed so that meaningful intervention is structurally impractical.
 
-Chiodo et al. (2025) develop a formal taxonomy of HITL failure modes, including "trivial monitoring" — the condition in which the human has zero computational dependence on the system, meaning the human's monitoring adds no information to the system's operation. The human is present. The system is unaffected by the human's presence. The HITL requirement is satisfied. Nothing has been governed.
+Chiodo et al. (2025) formalise this through computability theory, distinguishing HITL setup types by how much the system's output actually depends on the human. In what they call "trivial monitoring," the system defines a total function independent of the human — the human can halt the process but cannot alter its computation. The human is present. The system's output is unaffected by what the human thinks. The HITL requirement is satisfied. Nothing has been governed.
 
 ### Embedded policy constraints
 
@@ -280,7 +280,7 @@ The exposure is simple. When a system can perform the compliant version of a rol
 
 The governance question, properly framed, is not how to keep humans in the loop. It is whether organisations are willing to reconstitute the conditions under which human judgment in the loop would have binding force. The question recurs across sectors whenever expertise is formally retained while effective power is organised elsewhere.
 
-More specifically: deskilling and protocolisation have thinned the interpretive substance of roles (Section 2); the separation of contextual knowledge from decision-making authority has subordinated expert judgment to other forms of operative power (Section 3); AI automates the compliance-shaped activity that concealed this condition, making the subordination visible (Section 4); and HITL governance inherits the authority split rather than correcting it, producing responsibility without power (Section 5). Taken together, these findings suggest that the central challenge for AI governance is not technological but institutional: whether the person closest to the case will be given both the contextual knowledge and the authority to make judgment govern the outcome.
+More specifically: deskilling and protocolisation have thinned the interpretive substance of roles (Section 2); the separation of contextual knowledge from decision-making authority has subordinated expert judgment to other forms of operative power (Section 3); AI automates the compliance-shaped activity that concealed this condition, making the subordination visible (Section 4); and HITL governance inherits the authority split rather than correcting it, producing responsibility without power (Section 5). Taken together, these findings suggest that the central challenge for AI governance in these settings is not technological but institutional: whether the person closest to the case will be given both the contextual knowledge and the authority to make judgment govern the outcome.
 
 This paper does not prescribe how that restructuring should proceed. It identifies the conditions that make it necessary.
 
